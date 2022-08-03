@@ -37,7 +37,7 @@ $(function(){
         reply("I can speak all the languages but you need to teach me first.");
     }else if(Query[7].test(question)){
         reply("Cya.");
-    }else if(Query[7].test(question)){
+    }else if(Query[8].test(question)){
         reply("Tere se bada chutiya maine apni life mai bhi nhi dekha.");
     }else{
         reply("Samajh nhi aaya magar sunkar acha laga.");
