@@ -7,6 +7,7 @@ var Query = [
     /howoldareyour?|whatisyourage/i,
     /whatlanguagedoyouspeak?|whatlanguagesdoyouknow|whatisyourmothertongue/i,
     /bye|goodbye/i,
+    /whatisyourage,
 ];
 
 $(function(){
@@ -36,6 +37,8 @@ $(function(){
         reply("I can speak all the languages but you need to teach me first.");
     }else if(Query[7].test(question)){
         reply("Cya.");
+    }else if(Query[7].test(question)){
+        reply("1500years");
     }else{
         reply("Samajh nhi aaya magar sunkar acha laga.");
     }
