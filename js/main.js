@@ -7,7 +7,7 @@ var Query = [
     /howoldareyour?|whatisyourage/i,
     /whatlanguagedoyouspeak?|whatlanguagesdoyouknow|whatisyourmothertongue/i,
     /bye|goodbye/i,
-    /whatisyourage,
+    /whatdoyouthinkaboutme?,
 ];
 
 $(function(){
@@ -38,7 +38,7 @@ $(function(){
     }else if(Query[7].test(question)){
         reply("Cya.");
     }else if(Query[7].test(question)){
-        reply("1500years");
+        reply("Tere se bada chutiya maine apni life mai bhi nhi dekha.");
     }else{
         reply("Samajh nhi aaya magar sunkar acha laga.");
     }
