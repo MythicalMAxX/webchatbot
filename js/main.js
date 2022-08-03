@@ -7,7 +7,7 @@ var Query = [
     /howoldareyour?|whatisyourage/i,
     /whatlanguagedoyouspeak?|whatlanguagesdoyouknow|whatisyourmothertongue/i,
     /bye|goodbye/i,
-    /whatdoyouthinkaboutme?,
+    /whatdoyouthinkaboutme?/i,
 ];
 
 $(function(){
