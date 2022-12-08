@@ -38,4 +38,7 @@ $(function(){
         reply("Cya.");
     }else{
         reply("Samajh nhi aaya magar sunkar acha laga.");
+    }
     });
+
+});
